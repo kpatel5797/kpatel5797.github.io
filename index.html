@@ -72,8 +72,9 @@
         </div>
           <div class="row">
           <div class="col-lg-10 mx-auto">
-            <h2>3A Computer Science - University of Waterloo</h2>
-            <p  class="lead mb-4">I am a third year student studying Computer Science at the University of Waterloo. As a software developer, I like writing programs and thinking about efficient algorithms, as well as designing interfaces. I am planning to specialize in Human Computer Interaction, and am very interested in learning about Artificial Intelligence.</p>
+            <h2>4A Computer Science - University of Waterloo</h2>
+            <h4>(Human Computer Interaction option)</h4>
+            <p  class="lead mb-4 mt-4">I am a fourth year student studying Computer Science at the University of Waterloo. As a software developer, I like writing programs and thinking about efficient algorithms, as well as designing interfaces. I am planning to specialize in Human Computer Interaction, and am very interested in learning about Artificial Intelligence.</p>
             <p class="lead mb-4">Apart from computers, my favorite hobbies are cooking, sketching, and photography!</p>
             <!-- <a class="btn btn-dark btn-lg js-scroll-trigger" href="#work">
               <i class="fa fa-angle-double-down animated"></i>
@@ -93,7 +94,24 @@
         <div class="row">
           <div class="col-lg-12">
             <ul class="timeline mb-5 mt-3">
-              <li>
+                <li>
+                  <div class="timeline-image">
+                    <a href="https://www.groupbyinc.com/" target="_blank">
+                      <img class="rounded img-fluid"src="img/groupby.jpg" alt="GroupBy Inc.">
+                    </a>
+                  </div>
+                  <div class="timeline-panel text-left">
+                    <div class="timeline-heading">
+                      <h4>Software Developer</h4>
+                      <h4 class="subheading">GroupBy Inc.</h4>
+                      <p style="font-size: 14px">Sept 2018 - Dec 2018</p>
+                    </div>
+                    <div class="timeline-body text-left">
+                      <p>Working with an Agile frontend development team, I developed multiple reusable and scalable web components and features. I also investigated and debugged issues, and proactively participated in design refinement sessions with the Product Designer.</p>
+                    </div>
+                  </div>
+                </li>
+              <li class="timeline-inverted">
                 <div class="timeline-image">
                   <a href="http://www.cambridgefx.com/home/" target="_blank">
                     <img class="rounded img-fluid"src="img/cambridge.jpg" alt="Cambridge Global Payments">
@@ -101,7 +119,7 @@
                 </div>
                 <div class="timeline-panel text-left">
                   <div class="timeline-heading">
-                    <h4>Software Developer Intern</h4>
+                    <h4>Software Developer</h4>
                     <h4 class="subheading">Cambridge Global Payments</h4>
                     <p style="font-size: 14px">Jan 2018 - Apr 2018</p>
                   </div>
@@ -110,7 +128,7 @@
                   </div>
                 </div>
               </li>
-              <li class="timeline-inverted">
+              <li>
                 <div class="timeline-image">
                   <a href="http://www.cambridgefx.com/home/" target="_blank">
                     <img class="rounded img-fluid" src="img/cambridge.jpg" alt="Cambridge Global Payments">
@@ -127,7 +145,7 @@
                   </div>
                 </div>
               </li>
-              <li>
+              <li class="timeline-inverted">
                 <div class="timeline-image">
                   <a href="https://www.saintelizabeth.com/" target="_blank">
                     <img class="rounded img-fluid" src="img/sehc.jpg" alt="Saint Elizabeth Health Care">
@@ -156,7 +174,8 @@
     <section class="content-section bg-light" style=" padding-top: 100px; padding-bottom:100px; color:black; background-size:cover" id="skills">
       <div class="container text-center">
         <div class="content-section-heading">
-          <h2 class="mb-5">Technical Skills</h2>
+          <h2 class="mb-3">Technical Skills</h2>
+          <h4 class="lead mb-5 text-center" style="font-weight: 400">Following is the tech stack I have used at my past jobs and for my projects</h4>
         </div>
         <div class="row">
           <div class="col-lg-4">
@@ -167,6 +186,7 @@
               <li>Java</li>
               <li>Python</li>
               <li>JavaScript</li>
+              <li>TypeScript</li>
               <li>HTML</li>
               <li>CSS</li>
               <li>MIPS</li>
@@ -179,14 +199,20 @@
             <h4 class="mb-1 text-center" style="font-weight: 700">FRAMEWORKS AND TOOLS</h4>
             <ul class="text-center" style="list-style-type:none; font-size:20px; font-weight:500; padding-left:0px">
               <li>Bootstrap</li>
+              <li>Material UI</li>
               <li>ReactJS</li>             
               <li>Redux</li>
+              <li>Redux Form</li>
               <li>Git</li>
+              <li>Gradle</li>
+              <li>Yarn</li>
+              <li>Swing</li>
+              <li>AWT</li>
+              <li>Android Studio</li>
               <li>JIRA</li>
               <li>Unix/Linux</li>
               <li>CMS (Avaya)</li>
               <li>Avaya Aura SM tools</li>
-              <li>Dialogflow (Api.AI)</li>
             </ul>
           </div>
           <div class="col-lg-4">
@@ -194,11 +220,12 @@
             <ul class="text-center" style="list-style-type:none; font-size:20px; font-weight:500; padding-left:0px">
               <li>NodeJS</li>
               <li>WebSockets</li>
-              <li>Spring Framework</li>
-              <li>Thymeleaf</li>
-              <li>Apache Maven</li>
-              <li>Android Studio</li>
+              <li>Jest</li>
+              <li>Chai</li>
+              <li>Enzyme</li>
+              <li>CircleCI</li>
               <li>PowerShell</li>
+              <li>Dialogflow (Api.AI)</li>
               <li>jQuery</li>
               <li>VBA</li>
               <li>SQL</li>
@@ -223,6 +250,87 @@
           <h6 class="mb-5 text-dark">(Please click on the tiles for more info)</h6>
         </div>
         <div class="row no-gutters">
+
+         <div class="col-lg-4">
+            <a class="portfolio-item" data-toggle="modal" data-target="#modaljsketch">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>JavaSketch</h2>
+                  <p class="mb-0">A simple Java application similar to MS Paint.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/javasketch.jpg" alt="JavaSketch">
+            </a>
+            <div class="modal fade" id="modaljsketch" role="dialog">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title">JavaSketch</h5>
+                    <p style="margin-top:10px">This Java application allows the user to draw circles, rectangles, and lines on canvas. The user can move, erase, as well as change the border width, border color, and fill color of the shapes. Painter's algorithm and graphic translations were used in this app.</p>
+                    <p style="margin-top:10px"><b>Tech Stack:</b> Java, Swing, AWT, Gradle</p>
+                    <p>Github link: <a href="https://github.com/kpatel5797/JavaSketch" target="_blank">https://github.com/kpatel5797/JavaSketch</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <a class="portfolio-item" data-toggle="modal" data-target="#modalfotag">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Fotag Mobile</h2>
+                  <p class="mb-0">A photo album Android app which allows rating and filtering of images.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/fotag.jpg" alt="Fotag Mobile">
+            </a>
+            <div class="modal fade" id="modalfotag" role="dialog">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title">Fotag Mobile</h5>
+                    <p style="margin-top:10px">This Android photo album app was developed as an attempt to learn Android development. It allows the user to download stock images asynchronously from a web link, rate them, and filter them according to their ratings. It also supports change in screen orientations by saving and reloading existing state of the app, and full screen images using Intents.</p>
+                    <p style="margin-top:10px"><b>Tech Stack:</b> Java, Android Studio, Gradle</p>
+                    <p>Github link: <a href="https://github.com/kpatel5797/Fotag_Android" target="_blank">https://github.com/kpatel5797/Fotag_Android</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <a class="portfolio-item" data-toggle="modal" data-target="#modalchat">
+              <span class="caption">
+                <span class="caption-content">
+                  <h2>Color Chat Room</h2>
+                  <p class="mb-0">A simple chat room based on WebSockets.</p>
+                </span>
+              </span>
+              <img class="img-fluid" src="img/chatroom.jpg" alt="ColorChatRoom">
+            </a>
+            <div class="modal fade" id="modalchat" role="dialog">
+              <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <h5 class="modal-title">Color Chat Room</h5>
+                    <p style="margin-top:10px">This live chat room was developed as an attempt to learn WebSocket and NodeJS. Whenever a new user joins, the server assigns them a unique color, and sends them the entire message history. The messages are broadcasted to everyone online.</p>
+                    <p style="margin-top:10px"><b>Tech Stack:</b> NodeJS, WebSocket, JavaScript, jQuery, HTML, CSS, JSON</p>
+                    <p>Github link: <a href="https://github.com/kpatel5797/ColorChatRoom" target="_blank">https://github.com/kpatel5797/ColorChatRoom</a></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <div class="col-lg-4">
             <a class="portfolio-item" data-toggle="modal" data-target="#modalsmithers">
@@ -282,33 +390,6 @@
           </div>
 
           <div class="col-lg-4">
-            <a class="portfolio-item" data-toggle="modal" data-target="#modalchat">
-              <span class="caption">
-                <span class="caption-content">
-                  <h2>Color Chat Room</h2>
-                  <p class="mb-0">A simple chat room based on WebSockets.</p>
-                </span>
-              </span>
-              <img class="img-fluid" src="img/chatroom.jpg" alt="ColorChatRoom">
-            </a>
-            <div class="modal fade" id="modalchat" role="dialog">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                    <h5 class="modal-title">Color Chat Room</h5>
-                    <p style="margin-top:10px">This live chat room was developed as an attempt to learn WebSocket and NodeJS. Whenever a new user joins, the server assigns them a unique color, and sends them the entire message history. The messages are broadcasted to everyone online.</p>
-                    <p style="margin-top:10px"><b>Tech Stack:</b> NodeJS, WebSocket, JavaScript, jQuery, HTML, CSS, JSON</p>
-                    <p>Github link: <a href="https://github.com/kpatel5797/ColorChatRoom" target="_blank">https://github.com/kpatel5797/ColorChatRoom</a></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
             <a class="portfolio-item" data-toggle="modal" data-target="#modalproseemety">
               <span class="caption">
                 <span class="caption-content">
@@ -336,26 +417,26 @@
           </div>
 
           <div class="col-lg-4">
-            <a class="portfolio-item" data-toggle="modal" data-target="#modalpong">
+            <a class="portfolio-item" data-toggle="modal" data-target="#modalquadris">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Ping Pong</h2>
-                  <p class="mb-0">A classic single player ping pong game with Artificial Intelligence.</p>
+                  <h2>Quadris</h2>
+                  <p class="mb-0">A replica of the classic Tetris game with all pieces of size 4.</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/pong.jpg" alt="pink pong">
+              <img class="img-fluid" src="img/quadris.jpg" alt="quadris">
             </a>
-            <div class="modal fade" id="modalpong" role="dialog">
+            <div class="modal fade" id="modalquadris" role="dialog">
               <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                   <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
-                    <h5 class="modal-title">Ping Pong</h5>
-                    <p style="margin-top:10px">This is a remake of the classic Ping Pong game. It is a single player game with Artificial Intelligence controlling the computere pedal. The ball is deflected from the pedal with different speeds and angles based on where it hits the pedal.</p>
-                    <p style="margin-top:10px"><b>Tech Stack:</b>JavaScript, HTML</p>
-                    <p>Github link: <a href="https://github.com/kpatel5797/Ping-Pong" target="_blank">https://github.com/kpatel5797/Ping-Pong</a></p>
+                    <h5 class="modal-title">Quadris</h5>
+                    <p style="margin-top:10px">A game similar to Tetris, operated on XMing graphics and command line. This game was developed by proper use of OOP cocepts, design patterns, and MVC architecture. Features like hint, levels, sequencing, scores, etc. were implemented.</p>
+                    <p style="margin-top:10px"><b>Tech Stack:</b> C++, Bash, Git</p>
+                    <p>Github link: <a href="https://github.com/kpatel5797/Quadris" target="_blank">https://github.com/kpatel5797/Quadris</a></p>
                   </div>
                 </div>
               </div>
@@ -389,28 +470,27 @@
             </div>
           </div>
 
-          <div class="row no-gutters">
           <div class="col-lg-4">
-            <a class="portfolio-item" data-toggle="modal" data-target="#modalquadris">
+            <a class="portfolio-item" data-toggle="modal" data-target="#modalpong">
               <span class="caption">
                 <span class="caption-content">
-                  <h2>Quadris</h2>
-                  <p class="mb-0">A replica of the classic Tetris game with all pieces of size 4.</p>
+                  <h2>Ping Pong</h2>
+                  <p class="mb-0">A classic single player ping pong game with Artificial Intelligence.</p>
                 </span>
               </span>
-              <img class="img-fluid" src="img/quadris.jpg" alt="quadris">
+              <img class="img-fluid" src="img/pong.jpg" alt="pink pong">
             </a>
-            <div class="modal fade" id="modalquadris" role="dialog">
+            <div class="modal fade" id="modalpong" role="dialog">
               <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                   <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                       <span aria-hidden="true">&times;</span>
                     </button>
-                    <h5 class="modal-title">Quadris</h5>
-                    <p style="margin-top:10px">A game similar to Tetris, operated on XMing graphics and command line. This game was developed by proper use of OOP cocepts, design patterns, and MVC architecture. Features like hint, levels, sequencing, scores, etc. were implemented.</p>
-                    <p style="margin-top:10px"><b>Tech Stack:</b> C++, Bash, Git</p>
-                    <p>Github link: <a href="https://github.com/kpatel5797/Quadris" target="_blank">https://github.com/kpatel5797/Quadris</a></p>
+                    <h5 class="modal-title">Ping Pong</h5>
+                    <p style="margin-top:10px">This is a remake of the classic Ping Pong game. It is a single player game with Artificial Intelligence controlling the computere pedal. The ball is deflected from the pedal with different speeds and angles based on where it hits the pedal.</p>
+                    <p style="margin-top:10px"><b>Tech Stack:</b>JavaScript, HTML</p>
+                    <p>Github link: <a href="https://github.com/kpatel5797/Ping-Pong" target="_blank">https://github.com/kpatel5797/Ping-Pong</a></p>
                   </div>
                 </div>
               </div>
@@ -449,7 +529,7 @@
               <span class="caption">
                 <span class="caption-content">
                   <h2>WatisSleep</h2>
-                  <p class="mb-0">A simple alarm clock app which gives details about sleeping patterns.</p>
+                  <p class="mb-0">A simple alarm clock Android app which gives details about sleeping patterns.</p>
                 </span>
               </span>
               <img class="img-fluid" src="img/watissleep.jpg" alt="WatisSleep">
@@ -469,6 +549,18 @@
                 </div>
               </div>
             </div>
+          </div>
+
+          <div class="col-lg-4">
+              <a class="portfolio-item" data-toggle="modal">
+                <span class="caption">
+                  <span class="caption-content">
+                    <h2>Android App</h2>
+                    <p class="mb-0">New app coming soon!</p>
+                  </span>
+                </span>
+              <img class="img-fluid" src="img/android.jpg" alt="Android App">
+            </a>
           </div>
 
         </div>
